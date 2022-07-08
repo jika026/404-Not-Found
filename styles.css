@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 1rem;
+  padding: 0 1rem;
+}
+h1 {
+  margin: 20px 0 0 0;
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+.image {
+  max-width: 500px;
+  padding: 1rem;
+  margin: 3rem 0;
+}
+img {
+  width: 286px;
+}
+.error-text {
+  max-width: 300px;
+  margin: 2rem 0;
+}
+.text {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+.message {
+  margin: 2rem 0;
+  max-width: 350px;
+}
+.message-text {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+.link {
+  width: 216px;
+  padding: 1rem;
+  background-color: #333333;
+  text-align: center;
+}
+.return {
+  text-decoration: none;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+footer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  color: #bdbdbd;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+footer a {
+  font-weight: 700;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+  img {
+    width: 460px;
+  }
+  .error-text {
+    max-width: 390px;
+  }
+  .message {
+    max-width: 365px;
+  }
+  .message-text {
+    font-size: 24px;
+  }
+  .right {
+    padding: 1rem;
+    margin: 3rem 0;
+  }
+}
